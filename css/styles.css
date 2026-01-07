@@ -15,15 +15,22 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+main{
+flex-grow: 1;
+min-height: 100vh;
 }
 .section {
-  margin: 120px 0;
+  padding: 120px 0;
 }
 
-.container-1 {
-  width: 1440px;
+.container{
+ width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;
+ 
+
 }
 
 .team-list {
@@ -34,17 +41,19 @@ img {
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  gap:48px 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
 .header-1 {
   display: flex;
   gap: 40px;
-  justify-content: center;
-  width: 1440px;
+  justify-content: space-evenly;
+  width: 1158px;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  align-items: baseline;
+
 }
 .features {
   display: flex;
@@ -53,6 +62,7 @@ img {
 .adress {
   display: flex;
   gap: 40px;
+  padding-right: 156px;
 }
 .nav-link-link {
   display: flex;
@@ -60,6 +70,7 @@ img {
   justify-content: space-between;
   align-items: center;
   height: 72px;
+  padding-right: 70px;
 }
 .heading {
   text-align: center;
@@ -74,7 +85,6 @@ body {
   font-family: "Roboto,Raleway" sans-serif;
   line-height: 1.5;
   font-size: 16px;
-  width: 1440px;
   color: #434455;
   background-color: #ffffff;
 }
@@ -84,6 +94,8 @@ body {
   font-size: 18px;
   line-height: 1.166;
   letter-spacing: 0.03em;
+  margin-right: 76px;
+  
 }
 .web {
   color: #4d5ae5;
@@ -99,6 +111,7 @@ ul {
 }
 .nav-link {
   color: #2e2f42;
+  
 }
 .nav-link:hover {
   color: #404bbf;
@@ -106,6 +119,7 @@ ul {
 
 adress a {
   color: #434455;
+  padding-right: 156px;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -120,7 +134,7 @@ h1 {
 }
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
+  width: 1158px;
   text-align: center;
   padding: 188px 0;
 }
@@ -155,7 +169,7 @@ h1 {
 
 .team {
   background: #f4f4fd;
-  width: 1440px;
+  width: 1158px;
 }
 .team h2 {
   font-weight: 700;
@@ -172,10 +186,12 @@ h1 {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  background-color: white;
 }
 .team-card p {
   font-size: 16px;
   color: #434455;
+  background-color: white;
 }
 .portfolio h2 {
   font-weight: 700;
@@ -193,14 +209,22 @@ h1 {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+ 
 }
 .portfolio p {
   color: #434455;
   font-size: 16px;
+  
 }
+.portfolio h3,.portfolio p{
+text-align: left;
+}
+
 footer h3 {
   font-size: 18px;
   margin-bottom: 16px;
+  
 }
 
 footer {
@@ -211,7 +235,8 @@ footer {
   height: 112;
   opacity: 1;
   top: 3088px;
-  left: 156px;
+  padding left:156px ;
+  
 }
 footer p {
   font-size: 16px;
@@ -220,7 +245,19 @@ footer p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+
 }
 .studio-1 {
   color: #f4f4fd;
+}
+
+.logo-1{
+
+font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  
 }
