@@ -44,17 +44,10 @@ min-height: 100vh;
   gap:48px 24px;
   flex-wrap: wrap;
   justify-content: center;
-}
-.header-1 {
-  display: flex;
-  gap: 40px;
-  justify-content: space-evenly;
-  width: 1158px;
-  align-items: center;
-  border-bottom: 1px solid #e7e9fc;
-  align-items: baseline;
+  
 
 }
+
 .features {
   display: flex;
   gap: 24px;
@@ -64,14 +57,7 @@ min-height: 100vh;
   gap: 40px;
   padding-right: 156px;
 }
-.nav-link-link {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-  height: 72px;
-  padding-right: 70px;
-}
+
 .heading {
   text-align: center;
   padding-top: 32px;
@@ -94,7 +80,7 @@ body {
   font-size: 18px;
   line-height: 1.166;
   letter-spacing: 0.03em;
-  margin-right: 76px;
+  
   
 }
 .web {
@@ -119,7 +105,26 @@ ul {
 
 adress a {
   color: #434455;
-  padding-right: 156px;
+  
+}
+.header-1 {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  width: 1158px;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  align-items: baseline;
+}
+.nav-link-link {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding-left: 70px;
+  padding-right: 332px;
+
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -137,6 +142,7 @@ h1 {
   width: 1158px;
   text-align: center;
   padding: 188px 0;
+  margin: 0 auto;
 }
 .hero button {
   background-color: #4d5ae5;
@@ -170,6 +176,8 @@ h1 {
 .team {
   background: #f4f4fd;
   width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .team h2 {
   font-weight: 700;
@@ -192,6 +200,7 @@ h1 {
   font-size: 16px;
   color: #434455;
   background-color: white;
+  margin-bottom: 16px;
 }
 .portfolio h2 {
   font-weight: 700;
@@ -209,7 +218,7 @@ h1 {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  
  
 }
 .portfolio p {
@@ -219,6 +228,7 @@ h1 {
 }
 .portfolio h3,.portfolio p{
 text-align: left;
+
 }
 
 footer h3 {
@@ -260,4 +270,9 @@ font-family: "Raleway" sans-serif;
   letter-spacing: 0.03em;
   margin-right: 76px;
   
+}
+.portfolio-card{
+ width: calc((100%-48px)/3);
+ background-color: #ffffff;
+border-bottom:1px solid #E7E9FC;
 }
