@@ -104,7 +104,7 @@ adress a {
   display: flex;
   gap: 40px;
   justify-content: space-evenly;
-  width: 1158px;
+
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
   align-items: baseline;
@@ -132,7 +132,7 @@ h1 {
 }
 .hero {
   background-color: #2e2f42;
-  width: 1158px;
+  
   text-align: center;
   padding: 188px 0;
   margin: 0 auto;
@@ -168,8 +168,8 @@ h1 {
 
 .team {
   background: #f4f4fd;
-  width: 1158px;
-  padding: 0 15px;
+ 
+
   margin: 0 auto;
 }
 .team h2 {
@@ -193,7 +193,7 @@ h1 {
   font-size: 16px;
   color: #434455;
   background-color: white;
-  margin-bottom: 16px;
+
 }
 .portfolio-list {
   display: flex;
@@ -264,6 +264,7 @@ footer p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  padding-top: 16px;
 
 }
 .studio-1 {
@@ -278,6 +279,7 @@ font-family: "Raleway" sans-serif;
   line-height: 1.166;
   letter-spacing: 0.03em;
   margin-right: 76px;
+ 
   
 }
 
